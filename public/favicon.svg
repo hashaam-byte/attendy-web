@@ -1,83 +1,37 @@
-<svg width="680" height="420" viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg">
-  <title>Attendy Logo</title>
+<svg width="110" height="110" viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
+  <title>Attendy</title>
 
-  <!-- Background -->
-  <rect width="680" height="420" fill="#07090a" rx="20"/>
+  <!-- Outer rounded square -->
+  <rect x="0" y="0" width="110" height="110" rx="24" fill="#12161a" stroke="#1e2530" stroke-width="1.5"/>
 
-  <!-- ── Mark ── -->
-  <g transform="translate(154, 100)">
-    <!-- Outer rounded square -->
-    <rect x="0" y="0" width="110" height="110" rx="24" fill="#12161a" stroke="#1e2530" stroke-width="1.5"/>
+  <!-- QR corner — top-left -->
+  <rect x="13" y="13" width="30" height="30" rx="7" fill="none" stroke="#3b82f6" stroke-width="3.5"/>
+  <rect x="20" y="20" width="16" height="16" rx="3" fill="#3b82f6"/>
 
-    <!-- QR corner — top-left -->
-    <rect x="13" y="13" width="30" height="30" rx="7" fill="none" stroke="#3b82f6" stroke-width="3.5"/>
-    <rect x="20" y="20" width="16" height="16" rx="3" fill="#3b82f6"/>
+  <!-- QR corner — top-right -->
+  <rect x="67" y="13" width="30" height="30" rx="7" fill="none" stroke="#3b82f6" stroke-width="3.5"/>
+  <rect x="74" y="20" width="16" height="16" rx="3" fill="#3b82f6"/>
 
-    <!-- QR corner — top-right -->
-    <rect x="67" y="13" width="30" height="30" rx="7" fill="none" stroke="#3b82f6" stroke-width="3.5"/>
-    <rect x="74" y="20" width="16" height="16" rx="3" fill="#3b82f6"/>
+  <!-- QR corner — bottom-left -->
+  <rect x="13" y="67" width="30" height="30" rx="7" fill="none" stroke="#3b82f6" stroke-width="3.5"/>
+  <rect x="20" y="74" width="16" height="16" rx="3" fill="#3b82f6"/>
 
-    <!-- QR corner — bottom-left -->
-    <rect x="13" y="67" width="30" height="30" rx="7" fill="none" stroke="#3b82f6" stroke-width="3.5"/>
-    <rect x="20" y="74" width="16" height="16" rx="3" fill="#3b82f6"/>
+  <!-- QR data dots — bottom-right -->
+  <rect x="67" y="67" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.55"/>
+  <rect x="80" y="67" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.35"/>
+  <rect x="93" y="67" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.6"/>
+  <rect x="67" y="80" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.3"/>
+  <rect x="93" y="80" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.45"/>
+  <rect x="80" y="93" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.5"/>
+  <rect x="93" y="93" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.25"/>
 
-    <!-- QR data dots — bottom-right -->
-    <rect x="67" y="67" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.55"/>
-    <rect x="80" y="67" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.35"/>
-    <rect x="93" y="67" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.6"/>
-    <rect x="67" y="80" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.3"/>
-    <rect x="93" y="80" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.45"/>
-    <rect x="80" y="93" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.5"/>
-    <rect x="93" y="93" width="9" height="9" rx="2" fill="#3b82f6" opacity="0.25"/>
-
-    <!-- Checkmark -->
-    <polyline
-      points="34,58 50,74 76,44"
-      fill="none"
-      stroke="#ffffff"
-      stroke-width="6.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-    />
-  </g>
-
-  <!-- Wordmark -->
-  <text x="284" y="178"
-    font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"
-    font-size="56"
-    font-weight="700"
-    letter-spacing="-2"
-    fill="#eef0f4">Attendy</text>
-
-  <!-- Tagline -->
-  <text x="286" y="210"
-    font-family="'Courier New', monospace"
-    font-size="12"
-    letter-spacing="3"
-    fill="#6a7280">PRESENCE TRACKING · BUILT FOR AFRICA</text>
-
-  <!-- Divider -->
-  <line x1="154" y1="242" x2="540" y2="242" stroke="#1e2530" stroke-width="1"/>
-
-  <!-- Industry pills -->
-  <!-- Schools -->
-  <rect x="154" y="264" width="68" height="28" rx="7" fill="rgba(34,197,94,0.12)" stroke="rgba(34,197,94,0.25)" stroke-width="1"/>
-  <text x="188" y="282" font-family="'Courier New', monospace" font-size="11" fill="#4ade80" text-anchor="middle">Schools</text>
-
-  <!-- Banks -->
-  <rect x="232" y="264" width="60" height="28" rx="7" fill="rgba(59,130,246,0.12)" stroke="rgba(59,130,246,0.25)" stroke-width="1"/>
-  <text x="262" y="282" font-family="'Courier New', monospace" font-size="11" fill="#93c5fd" text-anchor="middle">Banks</text>
-
-  <!-- Offices -->
-  <rect x="302" y="264" width="68" height="28" rx="7" fill="rgba(139,92,246,0.12)" stroke="rgba(139,92,246,0.25)" stroke-width="1"/>
-  <text x="336" y="282" font-family="'Courier New', monospace" font-size="11" fill="#c4b5fd" text-anchor="middle">Offices</text>
-
-  <!-- Events -->
-  <rect x="380" y="264" width="64" height="28" rx="7" fill="rgba(244,63,94,0.12)" stroke="rgba(244,63,94,0.25)" stroke-width="1"/>
-  <text x="412" y="282" font-family="'Courier New', monospace" font-size="11" fill="#fda4af" text-anchor="middle">Events</text>
-
-  <!-- Business -->
-  <rect x="454" y="264" width="80" height="28" rx="7" fill="rgba(245,158,11,0.12)" stroke="rgba(245,158,11,0.25)" stroke-width="1"/>
-  <text x="494" y="282" font-family="'Courier New', monospace" font-size="11" fill="#fcd34d" text-anchor="middle">Business</text>
-
+  <!-- Checkmark -->
+  <polyline
+    points="34,58 50,74 76,44"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="6.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
 </svg>
