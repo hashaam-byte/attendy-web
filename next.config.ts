@@ -2,8 +2,6 @@ import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
   // Turbopack is the default bundler in Next.js 16 — no flag needed
-  // React Compiler (stable in Next.js 16, opt-in)
-  reactCompiler: false, // set to true to enable automatic memoization
 
   // Image optimization
   images: {
