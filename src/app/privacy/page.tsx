@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPage() {
-  const updated = "1 January 2025";
+  const updated = "30th of April, 2026";
 
   return (
     <>
